@@ -1,0 +1,13 @@
+training:
+  epochs: 30
+  batch_size: 64
+  learning_rate: 5e-4
+  weight_decay: 1e-4
+  num_workers: 4
+  image_size: 128
+  seed: 42
+  early_stopping_patience: 7
+  mixed_precision: true
+  train_val_test_split: [0.8, 0.1, 0.1]
+
+bands_order: ["B02", "B03", "B04", "B08"]
