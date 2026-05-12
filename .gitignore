@@ -1,0 +1,28 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+.env
+.vscode/
+.idea/
+
+# Local datasets and experiment outputs
+dataset_ship_type/
+data/
+outputs/
+results/
+results_local/
+results_local*/
+runs/
+checkpoints/
+models/
+
+# Local config overrides
+config.yaml
+
+# OS / editor noise
+Thumbs.db
+.DS_Store
