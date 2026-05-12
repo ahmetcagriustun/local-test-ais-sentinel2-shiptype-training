@@ -1,0 +1,1 @@
+# local-test-ais-sentinel2-shiptype-training
